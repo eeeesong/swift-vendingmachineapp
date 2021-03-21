@@ -66,3 +66,13 @@
 
 ![step 6](https://user-images.githubusercontent.com/72188416/111402365-6cd32180-870e-11eb-9740-c31505464920.gif)
 
+<br>
+
+## Step 7 - User Mode & Admin Mode (🎉 Mar 19)
+
+- 자판기의 금액을 추가하고 음료를 구매하는 기능만 가능한 `UserMode`와 음료의 재고를 추가할 수 있는`AdminMode` 를 나누었다.
+- 재고 라벨, 음료 이미지, 재고 추가 버튼, 음료 구매 버튼을 모두 가지고 있는 `ProductView`를 deep copy하여 `UserMode`와 `AdminMode`에서 각각의 필요에 따라 바꾸어 사용하였다.
+- 각 버튼의 동작을 감지할 수 있는 ViewModel 객체를 만들고, 각 ViewController가 해당 버튼에게 필요한 액션을 binding할 수 있도록 구현하였다.
+- 기존의 Presenter는 Status가 바뀌었을 때만 동작하도록 기능을 축소하고, 초기 StackView를 구성하는 객체를 따로 생성했다.
+
+![step 7](https://user-images.githubusercontent.com/72188416/111890799-5f7ca680-8a30-11eb-9f62-70879ec37f7d.gif)
