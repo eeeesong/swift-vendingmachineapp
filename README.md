@@ -1,5 +1,34 @@
 # Vending Machine App 🥫
 
+### 음료수의 구매가 가능한 간단한 자판기 앱
+
+![final](https://user-images.githubusercontent.com/72188416/111891571-8094c580-8a37-11eb-871c-154fa472066c.gif)
+
+<br>
+
+- 사용자 기능
+  - 1000원/5000원/10000원 단위의 금액 충전이 가능하다.
+  - 6종류의 음료를 구매할 수 있다.
+  - 역대 구매 목록을 열람할 수 있다.
+
+![userMode](https://user-images.githubusercontent.com/72188416/111891573-87233d00-8a37-11eb-942e-6cbe138a1f81.png)
+
+<br>
+
+- 관리자 기능
+  - 관리자 모드로 접근할 수 있다.
+  - 관리자 모드에서 음료수의 재고를 추가할 수 있다.
+
+![adminMode](https://user-images.githubusercontent.com/72188416/111891572-87233d00-8a37-11eb-942a-2345d0d3c6dc.png)
+
+<br>
+
+<br>
+
+----
+
+# 단계 별 기능 구현
+
 ## Step 1 - Beverage Class (🎉 Feb 24)
 
 - 자판기의 음료수를 포괄하는 `Beverage` class를 생성하고, subclass `Milk`, `Soda`, `Coffee`를 각각 생성하였다.
@@ -53,8 +82,6 @@
 - Notification Center를 통해 자판기 Model이 View Controller에게 재고 및 잔고의 업데이트 상황을 알릴 수 있도록 했다.
 
 ![step 5](https://user-images.githubusercontent.com/72188416/110910173-51ee5f00-8354-11eb-9b66-8d4b18a15db1.png)
-
-![step 5 2](https://user-images.githubusercontent.com/72188416/110910632-f5d80a80-8354-11eb-8080-33b31148e3ae.png)
 
 <br>
 
