@@ -91,6 +91,7 @@ class UserModeViewUpdator: UserModePresenter {
                                                 width: sizeUnit,
                                                 height: sizeUnit))
         newView.image = image
+        newView.layer.borderWidth = sizeUnit * 0.008
         newView.contentMode = .scaleAspectFit
         scrollView.addSubview(newView)
         scrollView.contentSize.width += sizeUnit/2

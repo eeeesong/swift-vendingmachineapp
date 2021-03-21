@@ -39,7 +39,7 @@ class ProductStackView: UIStackView {
     func adminMode() {
         buyButton.isHidden = true
         addButton.isHidden = false
-        addButton.tintColor = .darkGray
-        imageView.layer.cornerRadius = bounds.height * 0.08
+        countLabel.font = .systemFont(ofSize: 23, weight: .medium)
+        imageView.layer.cornerRadius = bounds.height * 0.06
     }
 }
